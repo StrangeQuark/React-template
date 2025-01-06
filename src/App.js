@@ -1,3 +1,4 @@
+import React from 'react';
 import Home from './pages/Home';
 import Login from './pages/Login'; // Integration line: Auth
 import Register from './pages/Register'; // Integration line: Auth
@@ -6,6 +7,7 @@ import ResetPassword from './pages/ResetPassword'; // Integration line: Email
 import ResetPasswordSearch from './pages/ResetPasswordSearch'; // Integration line: Auth - Integration line: Email
 import ConfirmEmail from './pages/ConfirmEmail'; // Integration line: Auth - Integration line: Email
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
